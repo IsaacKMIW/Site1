@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congo tourisme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- navigation -->
+     <nav class="nav-banner">
+        <h1 class="logo">CongoTour</h1>
+        <ul class="nav-lien">
+            <li class="active"><a href="#">Acceuil</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explorer</a></li>
+            <li><a href="#">Apropos</a></li>
+            <li><a class="ctn" href="#">Contact</a></li>
+        </ul>
+        <img src="menu-icon.png" class="btn-menu" alt="menu icon" width="35" height="45">
+    </nav>
+    <header>
+        <div class="banner">
+            <h4>Explorer le monde coloré</h4>
+            <div class="ligne"></div>
+            <h2>MON BEAU PAYS LE CONGO</h2>
+            <a href="#" class="ctn">Lire plus</a>
+        </div>
+    </header>
+
+    <!-- contenue de la page -->
+    <main>
+
+        <!-- evenement -->
+        <section class="event">
+            <div class="titre">
+                <h2>Evenement à venir</h2>
+                <div class="ligne"></div>
+            </div>
+            <div class="enligne">
+                <div class="colonne">
+                    <img src="eglise de KENGUE.jpeg" alt="eglise cahtolique de KENGUE" width="450" height="350">
+                    <h3>Eglise cahtolique de KENGUE</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, aliquam. Fuga voluptatibus deleniti delectus nobis totam necessitatibus autem dolor cum minima qui, est ex? Veniam enim architecto ipsam recusandae neque?</p>
+                    <a href="#" class="ctn">Lire plus</a>
+                </div>
+                <div class="colonne">
+                    <img src="Mayombe.jpeg" alt="train de CFCO traversant le Mayombe" width="450" height="350">
+                    <h3>Forêt du Mayombe</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, aliquam. Fuga voluptatibus deleniti delectus nobis totam necessitatibus autem dolor cum minima qui, est ex? Veniam enim architecto ipsam recusandae neque?</p>
+                    <a href="#" class="ctn">Lire plus</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explorer -->
+        <section class="explorer">
+            <div class="explorer-content">
+                <h2>VISITER LE CONGO</h2>
+                <div class="ligne"></div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut optio autem soluta reprehenderit corporis aliquid neque molestias illo eius, officia commodi qui sapiente cupiditate veniam? Aliquid illum voluptate placeat quam! elit. Ab ipsam eius dolorem amet placeat. A, hic perspiciatis recusandae expedita veniam modi soluta ipsum odit quam. Totam excepturi rerum cum vel.</p>
+                <a href="#" class="ctn">Lire plus</a>
+            </div>
+        </section>
+        
+        <!-- tours -->
+        <section class="tours">
+            <div class="enligne">
+                <div class="colonne content-col">
+                    <h2>VISITES &<br>DESTINATIONS<br>A VENIR</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam totam error, illum magni illo aspernatur dolor quam nulla necessitatibus nemo quaerat consequuntur reiciendis. Quo modi in blanditiis ducimus quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error esse eum omnis, quidem vitae quibusdam laboriosam qui fuga numquam tempore animi fugit excepturi voluptas quaerat ratione ad. Quod, architecto reiciendis?</p>
+                    <a href="#" class="ctn">Lire plus</a>
+                </div>
+                <div class="colonne image-col">
+                    <div class="image-gallerie">
+                        <img src="pont des saras.jpeg" title="pont des saras" alt="pont des saras" width="250" height="250">
+                        <img src="chute map makambou.jpeg" title="chute map makambou" alt="chute map makambou" width="250" height="250">
+                        <img src="kouilou.jpeg" title="kouilou" alt="kouilou" width="250" height="250">
+                        <img src="gare CFCO.jpeg" title="gare CFCO" alt="gare CFCO" width="250" height="250">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        const btnmenu = document.querySelector('.btn-menu')
+        const navlien = document.querySelector('.nav-lien')
+
+        btnmenu.addEventListener('click',()=>{
+            navlien.classList.toggle('mobile-menu')
+        })
+    </script>
+   
+
+   <footer>
+    <div class="contenu-footer">
+        <div class="bloc footer-services">
+            <h3>Nos Services</h3>
+            <ul class="liste-services">
+                <li><a href="#">Hebergement</a></li>
+                <li><a href="#">Nom de domaines</a></li>
+                <li><a href="#">E-Commerce</a></li>
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">Finances</a></li>
+                <li><a href="#">Start-Up</a></li>
+            </ul>
+        </div>
+
+        <div class="bloc footer-contact">
+            <h3>Restons en contact</h3>
+            <p>02 02 02 02 02</p>
+            <p>isaackmiw@gmail.com</p>
+            <p>6 rue des pommes 75000 Bourg-La-Reine</p>
+        </div>
+
+        <div class="bloc footer-horaires">
+            <h3>Les horaires</h3>
+            <ul class="liste-horaires">
+                <li>✅Lun-Ven / 10h-18h</li>
+                <li>❌Sam et Dim / fermé</li>
+            </ul>
+        </div>
+
+        <div class="bloc footer-medias">
+            <h3>Nos Réseaux</h3>
+            <ul class="liste-medias">
+                <li><a href="#"><img src="facebook.png" alt="icones réseaux sociaux">Facebook/monsite</a></li>
+                <li><a href="#"><img src="instagram.png" alt="icones réseaux sociaux">Insgram/monsite</a></li>
+                <li><a href="#"><img src="twitter.png" alt="icones réseaux sociaux">Twitter/monsite</a></li>
+                <li><a href="#"><img src="github.png" alt="icones réseaux sociaux">Github/HelloWorld</a></li>
+                <li><a href="#"><img src="youtube.png" alt="icones réseaux sociaux">Youtube/MyChannel</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <p>  Copyright &copy; ---2023-- IzzY </p>
+</footer>
+        
+</body>
+</html>
